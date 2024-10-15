@@ -20,7 +20,8 @@
           <?php include 'main/banner.html'; ?>
           
           <!-- Other sections -->
-          <?php include 'main/section1.html'; ?>
+          <?php include 'main/sectionNewsEvents.php'; ?>
+          <?php include 'main/sectionNotifications.php'; ?>
           <?php include 'main/section2.html'; ?>
           <?php include 'main/AboutUs.html'; ?>
           

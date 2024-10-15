@@ -2271,3 +2271,47 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+  
+        .notification-list ul {
+            list-style-type: none; /* Removes bullet points from the list */
+            padding: 0;
+            margin: 0;
+        }
+    
+        .notification-list li {
+            padding: 15px;
+            border-bottom: 1px solid #ddd; /* Adds a divider between notifications */
+            margin-bottom: 10px;
+        }
+    
+        .notification-list li:last-child {
+            border-bottom: none; /* Removes the last item's bottom border */
+        }
+    
+        .notification-date {
+            color: #888;
+            font-size: 0.9em;
+        }
+    
+        .new-icon {
+            color: red;
+            font-weight: bold;
+            margin-left: 10px;
+            font-size: 0.9em;
+        }
+    
+        /* Blinking effect */
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    
+        .blink {
+            animation: blink 1s infinite; /* Blink animation every 1 second */
+        }
+    
+        /* Optional hover effect */
+        .notification-list li:hover {
+            background-color: #f9f9f9;
+        }
