@@ -24,6 +24,7 @@
           <?php include 'main/sectionNotifications.php'; ?>
           <?php include 'main/section2.html'; ?>
           <?php include 'main/AboutUs.html'; ?>
+          <?php //include 'sections/bottom.html'; ?>
           
         </div>
       </div>
@@ -35,7 +36,7 @@
       
     </div>
     <div>
-    <?php include 'sections/footer.html'; ?>
+    <?php include 'sections/bottom.html'; ?>
     </div>
 
     <!-- Scripts -->
