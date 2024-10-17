@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-  <head>
+<head>
     <title>Govt Polytechnic Kishtwar</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -20,15 +20,14 @@
           
           <!-- Header -->
           <?php include 'sections/header.html'; ?>
-          <?php include 'main/banner.php'; ?>
-          <?php include 'main/sectionNewsEvents.php'; ?>
-          <?php include 'main/sectionNotifications.php'; ?>
-          <?php include 'main/sectionDepartments.html'; ?>
-          <?php include 'main/sectionAdministration.html'; ?>
-          <?php include 'main/sectionAdmission.html'; ?>
-          <?php include 'main/sectionScholarships.html'; ?>
-          <?php include 'main/sectionAboutUs.html'; ?>
           
+          <!-- Banner -->
+          <?php include 'main/banner-electrical.php'; ?>
+          
+          <!-- Other sections -->
+          <?php include 'main/electrical-Faculty.html'; ?>
+          <?php include 'main/electrical-Facilities.html'; ?>
+          <?php //include 'sections/bottom.html'; ?>
           
         </div>
         <?php include 'sections/bottom.html'; ?>
@@ -40,8 +39,9 @@
    
       
     </div>
-    
-    
+   
+
+    <!-- Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/browser.min.js"></script>
     <script src="assets/js/breakpoints.min.js"></script>

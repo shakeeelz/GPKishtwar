@@ -1,0 +1,20 @@
+.image-slider {
+    height: 400px; /* Fixed height for the image container */
+    overflow: hidden; /* Hide overflow */
+}
+
+.carousel-item {
+    height: 100%; /* Full height for carousel items */
+}
+
+.carousel-item img {
+    width: 100%; /* Full width for images */
+    height: 100%; /* Full height to fill the carousel */
+    object-fit: cover; /* Cover the area, cropping if necessary */
+}
+
+.no-gap {
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+  
