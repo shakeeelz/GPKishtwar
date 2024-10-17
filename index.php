@@ -1,10 +1,11 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <title>GPC Kishtwar</title>
+    <title>Govt Polytechnic Kishtwar</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="icon" href="images/gpkishtwar.ico" type="image/x-icon" />
   </head>
   <body class="is-preload">
     <div id="wrapper">
@@ -22,8 +23,8 @@
           <!-- Other sections -->
           <?php include 'main/sectionNewsEvents.php'; ?>
           <?php include 'main/sectionNotifications.php'; ?>
-          <?php include 'main/section2.html'; ?>
-          <?php include 'main/AboutUs.html'; ?>
+          <?php include 'main/sectionDepartments.html'; ?>
+          <?php include 'main/sectionAboutUs.html'; ?>
           <?php //include 'sections/bottom.html'; ?>
           
         </div>
