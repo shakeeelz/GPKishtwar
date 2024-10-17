@@ -1,10 +1,7 @@
 <section id="banner" class="row no-gap">
     <div class="col-md-6 no-gap">
-       
-            <header>
-                <h1>Govt Polytechnic College, Kishtwar</h1>
-                <p>Your Gateway to Quality Technical Education</p>
-            </header>
+            <h3>Your Gateway to Quality Technical Education</h3>
+            
             <p>At Govt Polytechnic Kishtwar, we are committed to providing a world-class education in various technical disciplines. 
                 Our aim is to equip students with the skills and knowledge required for a bright future. 
                 Join us to explore endless opportunities and grow in a dynamic environment.</p>

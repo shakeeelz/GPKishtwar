@@ -1,5 +1,5 @@
 .image-slider {
-    height: 400px; /* Fixed height for the image container */
+    height: 300px; /* Fixed height for the image container */
     overflow: hidden; /* Hide overflow */
 }
 
@@ -14,7 +14,7 @@
 }
 
 .no-gap {
-    margin: 0; /* Remove margin */
-    padding: 0; /* Remove padding */
+    margin: -1; /* Remove margin */
+    padding: -1; /* Remove padding */
 }
   
